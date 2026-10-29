@@ -1,0 +1,10 @@
+# SITE-05 weapon list
+# One weapon per line:  number | Name | damage | headshot | max rounds per second | range (m)
+#   number    1-255, given once and never reused (delete a line and guns registered as it stop doing damage)
+#   damage    trauma per round that hits the body (100 = downed)
+#   headshot  "kill" (straight to downed) or a multiplier like x2
+#   add "| retired" at the end to stop new guns being registered as it (existing ones keep working)
+# The installer reads the number and name; the world reads the rest.
+1 | M4A1  | 18 | kill | 14 | 120
+2 | SCAR-H | 26 | kill | 10 | 150
+3 | AK-47 | 24 | kill | 11 | 110
